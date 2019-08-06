@@ -305,6 +305,7 @@ if touchScroll is false - update index
 
 
         if(locked) {
+          e.preventDefault();
           return false;
         }
         if(delta<0) {
