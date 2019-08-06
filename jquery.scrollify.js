@@ -550,7 +550,7 @@ if touchScroll is false - update index
       },
       handleResize:function() {
         //callbacks, scroll
-        util.refresh(true,false);
+        util.refresh(true,true);
       },
       handleOrientation:function() {
         //callbacks, scroll
